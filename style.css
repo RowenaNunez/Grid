@@ -1,0 +1,31 @@
+:root{
+    --clr-dark:rgb(146, 93, 170);
+    --clr-light:rgb(63, 77, 197);
+    --clr-accent:rgb(87, 204, 250);
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    margin:0 auto;
+    padding: 25px;
+    line-height: 2.7;
+    word-spacing: 1.2em ;
+    font-family:'Roboto',sans-serif ;
+    color: var(--clr-accent);
+    background-color: var(--clr-dark) ;
+}
+.container{
+    width:90% ;
+    margin:auto ;
+    border:25px solid var(--clr-light) ;
+}
+.item{
+    padding: 2.5em; ;
+    background-color:rgba(175, 230, 227, 0.849) ;
+    font-weight: 800;
+    color:var(--clr-light) ;
+    border: 10px solid var(--clr-accent);
+}
